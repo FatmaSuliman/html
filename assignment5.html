@@ -1,0 +1,61 @@
+<!-- https://elzero.org/html-assignments-lesson-from-24-to-27/ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="test.py" method="post">
+      <div>
+        <label>username</label>
+        <input type="text" required placeholder="enter your username" />
+      </div>
+      <br />
+      <div>
+        <label>password</label>
+        <input
+          type="password"
+          required
+          placeholder="please enter your password"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="phone">phone</label>
+        <input
+          type="tel"
+          name="phone"
+          pattern="123 (234) 20100 +"
+          placeholder="123 (234) 20100 +"
+        />
+      </div>
+      <br />
+      <div>
+        <label> Email</label>
+        <input
+          type="email"
+          required
+          placeholder="enter your email"
+          value="o@spm.sa"
+        />
+      </div>
+      <br />
+      <div>
+        <label>Subject</label>
+        <input type="email" placeholder="enter subject" />
+        <br />
+      </div>
+
+      <input type="submit" value="save" />
+
+      <input type="submit" value="send data" />
+
+      <input type="reset" value="Rest" />
+
+      <input type="number" hidden />
+    </form>
+  </body>
+</html>

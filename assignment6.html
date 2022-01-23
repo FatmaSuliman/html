@@ -1,0 +1,128 @@
+<!-- https://elzero.org/html-assignments-lesson-from-28-to-30/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <form action="assignment6.">
+      <div>
+        <label>username</label>
+        <input type="text" autofocus minlength="5" maxlength="20" />
+      </div>
+      <br />
+      <div>
+        <label>Email</label>
+        <input type="email" readonly placeholder="o@o.com" disabled />
+
+        <!-- disable -->
+      </div>
+      <br />
+      <div>
+        <input type="text" hidden value="b92f1fc2fce391ad7af633723afd3055" />
+        <input type="reset" value="Empty" />
+        <input type="submit" value="send" />
+      </div>
+      <hr />
+      <div>
+        <h1>jops</h1>
+        <input type="radio" name="jops" value="Scrum Master" id="Scrum" />
+        <label for="Scrum">Scrum Master</label>
+      </div>
+      <div>
+        <input type="radio" name="jops" value="Project Manager" id="Project" />
+        <label for="Project">Project Manager</label>
+      </div>
+      <div>
+        <input
+          type="radio"
+          name="jops"
+          value="Business Analyst"
+          id="Business"
+        />
+        <label for="Business">Business Analyst</label>
+      </div>
+      <div>
+        <input
+          type="radio"
+          name="jops"
+          value="Back-End Developer"
+          id="Back-End"
+        />
+        <label for="Back-End">Back-End Developer</label>
+      </div>
+      <div>
+        <input
+          checked
+          type="radio"
+          name="jops"
+          value="Front-End Developer"
+          id="Front-End"
+        />
+        <label for="Front-End">Front-End Developer</label>
+      </div>
+      <br />
+      <div>
+        <h1>Skills</h1>
+        <input type="checkbox" name="skills" value="Planning" id="Planning" />
+        <label for="Planning">Planning</label>
+      </div>
+      <div>
+        <input type="checkbox" name="skills" value="Analysis" id="Analysis" />
+        <label for="Analysis">Analysis </label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          name="skills"
+          value="Advanced Search"
+          id="Advanced Search"
+        />
+        <label for="Advanced Search">Advanced Search</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          name="skills"
+          value="Logical Thinking"
+          id="Logical Thinking"
+        />
+        <label for="Logical Thinking">Logical Thinking</label>
+      </div>
+      <div>
+        <input
+          checked
+          type="checkbox"
+          name="skills"
+          value="Problem Solving"
+          id="Problem Solving"
+        />
+        <label for="Problem Solving">Problem Solvingr</label>
+      </div>
+    </form>
+    <hr />
+    <label for="programming language">programming language:</label>
+
+    <select>
+      <option value="html">html</option>
+      <option value="css">css</option>
+      <option value="js">js</option>
+      <option value="c++">c++</option>
+      <option value="c#">c#</option>
+      <option value="python">python</option>
+      <option value="php">php</option>
+    </select>
+    <hr />
+    <textarea
+      name="subject"
+      cols="30"
+      rows="10"
+      placeholder="Write Here Why You Want To Learn Programming"
+    ></textarea>
+    <hr />
+  </body>
+</html>
